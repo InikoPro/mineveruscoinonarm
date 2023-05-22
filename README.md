@@ -28,6 +28,10 @@ sudo systemctl restart systemd-binfmt
 
 # If you experience an error when running this command, try restarting your Raspberry Pi.
 sudo reboot
+
+# Next, Install nheqminer
+sudo apt install wget -y
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
 ```
 
 ## Hashrate
