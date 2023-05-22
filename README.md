@@ -35,9 +35,9 @@ wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-L
 ```
 
 ## Hashrate
-| Device           | Operating System         | Hashrate | Box86 Version | CPU Speed |
-| ---------------- | ------------------------ | -------- | ------------- | --------- |
-| Raspberry Pi 4   | Raspberry Pi OS 64 Bit   | ?        | v0.3.0        | ?         |
-| Raspberry Pi 4   | Raspberry Pi OS 32 Bit   | ?        | ?             | ?         |
+| Device                          | Operating System         | Hashrate | Box86 Version | CPU Speed |
+| ------------------------------- | ------------------------ | -------- | ------------- | --------- |
+| Raspberry Pi 4 Model B Rev 1.4  | Raspberry Pi OS 64 Bit   | ?        | v0.3.0        | ?         |
+| Raspberry Pi 4 Model B Rev 1.4  | Raspberry Pi OS 32 Bit   | ?        | ?             | ?         |
 
 if you want add to this list, please make issues in github.
