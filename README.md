@@ -32,6 +32,17 @@ sudo reboot
 # Next, Install nheqminer
 sudo apt install wget -y
 wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar -xvzf nheqminer-Linux-v0.8.2.tgz
+tar -xvzf nheqminer-Linux-v0.8.2.tar.gz
+cd nheqminer
+
+# To edit start.sh then use command this
+nano start.sh
+
+# and then start mine.
+./start.sh
+
+Enjoy you mine verus coin on Raspberry Pi 4!
 ```
 
 ## Hashrate
