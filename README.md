@@ -36,8 +36,11 @@ tar -xvzf nheqminer-Linux-v0.8.2.tgz
 tar -xvzf nheqminer-Linux-v0.8.2.tar.gz
 cd nheqminer
 
+# To edit start.sh then use this command.
+nano start.sh
+
 # and then start mine.
-./nheqminer -v -l ap.luckpool.net:3956 -u RMU2QggCN43G5CUUNDEqF2AnYwNc8NLVmu.rpi4 -p x -t 4
+./start.sh
 
 Enjoy you mine verus coin on Raspberry Pi 4!
 ```
