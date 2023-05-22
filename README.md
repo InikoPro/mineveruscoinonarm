@@ -1,8 +1,34 @@
 # VerusMineOnRaspberryPi
 Verus Mine for Raspberry Pi/
 
-## Setup & Install
-Coming Soon
+## Setup & Install (Raspberry Pi 4 ONLY)
+```
+# Install box86
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt install git build-essential cmake -y
+git clone https://github.com/ptitSeb/box86
+
+# If you running this on a 64-bit Operating Systems then use the following command.
+sudo dpkg --add-architecture armhf
+sudo apt update
+sudo apt install gcc-arm-linux-gnueabihf libc6:armhf libncurses5:armhf libstdc++6:armhf -y
+
+# Now let's setup box86.
+cd ~/box86
+mkdir build
+cd build
+
+cmake .. -DRPI4=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo // 32-bit Operating Systems only.
+cmake .. -DRPI4ARM64=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo // 64-bit Operating Systems only.
+
+make -j$(nproc)
+sudo make install
+sudo systemctl restart systemd-binfmt
+
+# If you experience an error when running this command, try restarting your Raspberry Pi.
+sudo reboot
+```
 
 ## Hashrate
 | Device           | Operating System         | Hashrate | Box86 Version |
