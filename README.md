@@ -1,5 +1,5 @@
 # VerusMineOnRaspberryPi
-Verus Mine for Raspberry Pi
+Verus Mine for Raspberry Pi (Unofficial)
 
 ## Setup & Install (Raspberry Pi 4 ONLY)
 ```
