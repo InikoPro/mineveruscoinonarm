@@ -12,9 +12,19 @@ chmod +x autogen.sh
 ./build.sh
 
 # Mine
-./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3960 -u RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM.RPi5 -p x -t 4
+./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM -p x -t 4
 ```
 
+## Install (For CCminer Optimized)
+```
+sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential libomp5 git -y
+cd /usr/src
+git clone https://github.com/Oink70/CCminer-ARM-optimized
+cd /usr/src/CCminer-ARM-optimized/
+
+# Mine
+./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM -p x -t 4
+```
 
 ## Hashrate
 | Device                          | Operating System         | Hashrate                             | CPU Speed | CCminer version               | User     |
