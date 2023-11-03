@@ -1,5 +1,6 @@
 # Mine Verus Coin on Raspberry Pi
-
+## Donate
+Verus Coin: **RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM**
 ## Install (For CCminer)
 ```
 # Install
