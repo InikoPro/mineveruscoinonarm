@@ -7,9 +7,9 @@ coming soon
 
 
 ## Hashrate
-| Device                          | Operating System         | Hashrate                             | CPU Speed | CCminer version               |
-| ------------------------------- | ------------------------ | ------------------------------------ | --------- | ----------------------------- |
-| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS 64 Bit   | 3.56 MH/s (Now), 2.39 MH/s (Avg)     | 2.4GHz    | CCMiner v3.8.3                |
-| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS 64 Bit   | 5.86 MH/s (Peak), 4.02 MH/s (Avg)    | 2.4GHz    | CCMiner v3.8.3-4 (Optimized)  |
+| Device                          | Operating System         | Hashrate                             | CPU Speed | CCminer version               | User     |
+| ------------------------------- | ------------------------ | ------------------------------------ | --------- | ----------------------------- | -------- |
+| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS 64 Bit   | 3.56 MH/s (Now), 2.39 MH/s (Avg)     | 2.4GHz    | CCMiner v3.8.3                | [applerobloxgames](https://github.com/InikoMatthewPro)
+| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS 64 Bit   | 5.86 MH/s (Peak), 4.02 MH/s (Avg)    | 2.4GHz    | CCMiner v3.8.3-4 (Optimized)  | [applerobloxgames](https://github.com/InikoMatthewPro)
 
 if you want add to this list, please make issues in github.
