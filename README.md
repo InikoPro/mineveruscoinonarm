@@ -31,9 +31,10 @@ cd /usr/src/CCminer-ARM-optimized/
 ```
 
 ## Hashrate
-| Device                          | Operating System         | Hashrate                             | CPU Speed | CCminer version               | User     |
-| ------------------------------- | ------------------------ | ------------------------------------ | --------- | ----------------------------- | -------- |
-| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS Desktop 64 Bit   | 3.56 MH/s (Now), 2.39 MH/s (Avg)     | 2.4GHz    | CCMiner v3.8.3                | [applerobloxgames](https://github.com/InikoMatthewPro)
-| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS Desktop 64 Bit   | 5.86 MH/s (Peak), 4.02 MH/s (Avg)    | 2.4GHz    | CCMiner v3.8.3-4 (Optimized)  | [applerobloxgames](https://github.com/InikoMatthewPro)
+| Device                          | Operating System                           | Hashrate                             | CPU, Speed & Cores/Threads  | CCminer version               | User                                                   |
+| ------------------------------- | ------------------------------------------ | ------------------------------------ | --------------------------- | ----------------------------- | ------------------------------------------------------ |
+| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS Desktop 64 Bit (Bookworm)  | 3.56 MH/s (Now), 2.39 MH/s (Avg)     | BCM2712 & 2.4GHz (4/4)      | CCMiner v3.8.3                | [applerobloxgames](https://github.com/InikoMatthewPro) |
+| Raspberry Pi 5 Rev 1.0          | Raspberry Pi OS Desktop 64 Bit (Bookworm)  | 5.86 MH/s (Peak), 4.02 MH/s (Avg)    | BCM2712 & 2.4GHz (4/4)      | CCMiner v3.8.3-4 (Optimized)  | [applerobloxgames](https://github.com/InikoMatthewPro) |
+| Nano Pi R2S                     | Debian 11 (Bullseye)                       | 1.31 MH/s (Avg), 3.13 MH/s (Max)     | RK3328 & 1.296GHz (4/4)     | CCMiner v3.8.3                | [applerobloxgames](https://github.com/InikoMatthewPro) |
 
 if you want add to this list, please make issues in github.
