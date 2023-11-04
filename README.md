@@ -1,4 +1,7 @@
-# Mine Verus Coin on Raspberry Pi
+# Mine Verus Coin on Pi
+- Raspberry Pi
+- Orange Pi
+- Nano Pi
 ## Donate
 Verus Coin: **RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM**
 ## Install (For CCminer)
