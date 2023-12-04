@@ -5,6 +5,8 @@
 - Others Pi/ARM
 ## Donate
 Verus Coin: **RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM**
+
+# Linux
 ## Install (For CCminer)
 ```
 # Install
