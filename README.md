@@ -1,4 +1,4 @@
-# Mine Verus Coin on Pi
+# Mine Verus Coin on ARM
 - Raspberry Pi
 - Orange Pi
 - Nano Pi
