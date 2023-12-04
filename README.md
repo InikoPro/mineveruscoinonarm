@@ -6,8 +6,11 @@
 ## Donate
 Verus Coin: **RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM**
 
+# Android
+https://pangz-lab.github.io/verusminer/
+
 # Linux
-## Install (For CCminer)
+### Install (For CCminer)
 ```
 # Install
 sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
@@ -22,7 +25,7 @@ chmod +x autogen.sh
 ./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM -p x -t 4
 ```
 
-## Install (For CCminer Optimized)
+### Install (For CCminer Optimized)
 ```
 sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential libomp5 git -y
 cd /usr/src
